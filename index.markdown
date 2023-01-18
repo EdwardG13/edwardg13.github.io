@@ -12,5 +12,4 @@ hero_height: 10
 
 This is the homepage.
 
-hi this is ed
-
+no particles
