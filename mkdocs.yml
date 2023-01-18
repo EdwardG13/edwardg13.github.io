@@ -1,0 +1,4 @@
+site_name: Edward Gandar Physics
+
+extra_javascript:
+    particles.js
