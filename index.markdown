@@ -14,4 +14,5 @@ This is the homepage.
 
 <div id="particles-js"></div>
  
-<script src="node_modules/particles/particles.js"></script>
+<script src="node_modules/particles/particles.js">
+</script>
