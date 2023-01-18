@@ -12,6 +12,8 @@ hero_height: 10
 
 This is the homepage.
 
+```html
 <div id="particles-js"></div>
- 
+
 <script src="particles.js"></script>
+```
