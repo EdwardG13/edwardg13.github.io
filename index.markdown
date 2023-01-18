@@ -12,4 +12,6 @@ hero_height: 10
 
 This is the homepage.
 
-no particles
+<div id="particles-js"></div>
+ 
+<script src="particles.js"></script>
