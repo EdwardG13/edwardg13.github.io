@@ -1,0 +1,23 @@
+{
+  "name": "edwardg13.github.io",
+  "version": "1.0.0",
+  "description": "packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdwardG13/edwardg13.github.io.git"
+  },
+  "keywords": [],
+  "author": "Edward Gandar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdwardG13/edwardg13.github.io/issues"
+  },
+  "homepage": "https://github.com/EdwardG13/edwardg13.github.io#readme",
+  "dependencies": {
+    "particles.js": "^2.0.0"
+  }
+}
