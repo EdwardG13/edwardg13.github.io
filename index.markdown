@@ -16,4 +16,5 @@ This is the homepage.
 <div id="particles-js"></div>
 
 <script src="particles.js"></script>
+<script src="app.js"></script>
 ```
