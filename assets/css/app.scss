@@ -1,0 +1,16 @@
+---
+---
+$primary: #3C5363;
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: hero_darken;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+// Import Main CSS file from theme
+@import "main";

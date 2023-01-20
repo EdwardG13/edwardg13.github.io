@@ -1,0 +1,24 @@
+<section class="hero {% if page.hero_height %} {{ page.hero_height }} {% else %} is-medium {% endif %} is-bold is-primary" {% if page.hero_image %} style="background: url('{{ page.hero_image }}') no-repeat center center; background-size: cover;" {% endif %}>
+    <div class="hero-body {% if page.hero_darken %} hero-darken {% endif %}">
+	
+		<div id="particles-js">
+			<div class="container">
+				<h1 class="title is-2" align="center">{{ page.title }}</h1>
+				<p class="subtitle is-3">{{ page.subtitle }}</p>
+				{% if page.hero_link %}
+					<a href="{{ page.hero_link | relative_url }}" class="button is-info is-large">{{ page.hero_link_text }}</a>
+				{% endif %}
+			</div>
+		</div>
+		
+		<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+		<script>
+			particlesJS.load('particles-js', '{{site.baseurl}}/assets/particles.json', function() {
+				console.log('callback - particles.js config loaded');
+				let el = document.querySelector(".particles-js-canvas-el"); 
+				el.setAttribute("height", "500vh");			
+			});
+		</script>
+	
+    </div>
+</section>

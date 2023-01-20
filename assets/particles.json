@@ -4,7 +4,7 @@
       "value": 80,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 1600
       }
     },
     "color": {
@@ -20,13 +20,13 @@
         "nb_sides": 5
       },
       "image": {
-        "src": "img/github.svg",
+        "src": "",
         "width": 100,
         "height": 100
       }
     },
     "opacity": {
-      "value": 0.5,
+      "value": 0.8,
       "random": false,
       "anim": {
         "enable": false,
@@ -54,7 +54,7 @@
     },
     "move": {
       "enable": true,
-      "speed": 12,
+      "speed": 6,
       "direction": "none",
       "random": false,
       "straight": false,
@@ -99,7 +99,7 @@
         "duration": 0.4
       },
       "push": {
-        "particles_nb": 4
+        "particles_nb": 3
       },
       "remove": {
         "particles_nb": 2

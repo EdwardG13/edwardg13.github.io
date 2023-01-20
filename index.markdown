@@ -11,8 +11,3 @@ hero_height: 10
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
 This is the homepage.
-
-<div id="particles-js"></div>
-
-<script src="particles.js"></script>
-<script src="app.js"></script>
