@@ -29,6 +29,7 @@ github_username:  EdwardG13
 
 footer_menu: footer
 permalink: pretty
+hero_height: 10
 
 # Build settings
 #theme: minima
