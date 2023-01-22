@@ -1,10 +1,14 @@
 - name: About
   link: /about/
+- name: Research
+  link: /research/
+- name: Projects
+  link: /projects/
 - name: Blog
-  link: #
-- name: Test page
-  link: /test/
-- name: Dropdown
+  link: /blog/
+- name: Other pages
   dropdown: 
     - name: Page 2
+      link: # 
+    - name: Page 3
       link: # 
