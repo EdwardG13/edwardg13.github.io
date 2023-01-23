@@ -29,13 +29,23 @@ github_username:  EdwardG13
 
 footer_menu: footer
 permalink: pretty
-hero_height: 10
 
 # Build settings
 #theme: minima
 remote_theme: chrisrhymes/bulma-clean-theme
 plugins:
   - jekyll-feed
+
+
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      hero_height: 8
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
